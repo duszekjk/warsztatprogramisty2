@@ -9,6 +9,9 @@ def obliczenia_osoby_A(liczbyA, liczbyB):
     return wynik
 def obliczenia_osoby_B(liczbyA, liczbyB):
     wynik = 0
+    for x in liczbyA:
+        for y in liczbyB:
+            wynik += x*y
     return wynik
 #def obliczenia_osoby_C(liczbyA, liczbyB):
 #    wynik = 0
@@ -16,6 +19,9 @@ def obliczenia_osoby_B(liczbyA, liczbyB):
     
 def obliczenia_wspolne(liczbyA, liczbyB):
     wynik = 0
+    for x in liczbyA:
+        for y in liczbyB:
+            wynik += x*y
     return wynik
 
 A = [9,2,1,4,1,4,3,5,2,5,36,78,6,865,4,5,746,46,3,5]
