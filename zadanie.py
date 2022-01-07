@@ -2,7 +2,7 @@
 
 # Wymyśl swoją (dowolną, ale indywidualną, inną od pozostałych osób) serię obliczeń (mnożenie, dzielenie, odejmowanie, dodawanie, potęgowanie, inne działania dla liczb parzystych i nieparzystych...) na ciągu liczb A i liczb B, tak , żeby w funkcji zajęło to minimum 3 linijki kodu i żeby wynik był pojedyńczą liczbą "wynik"
 #funkcje dla drugiej osoby z grupy pozostaw pustą
-# Do funkcji "obliczenia_wspolne"
+# Do funkcji "obliczenia_wspolne" dodaj te same obliczenia
 
 def obliczenia_osoby_A(liczbyA, liczbyB):
     wynik = 0
