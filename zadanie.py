@@ -6,6 +6,9 @@
 
 def obliczenia_osoby_A(liczbyA, liczbyB):
     wynik = 0
+    for a in liczbyA:
+        for b in liczbyB:
+            wynik += a-b
     return wynik
 def obliczenia_osoby_B(liczbyA, liczbyB):
     wynik = 0
@@ -16,6 +19,9 @@ def obliczenia_osoby_B(liczbyA, liczbyB):
     
 def obliczenia_wspolne(liczbyA, liczbyB):
     wynik = 0
+    for a in liczbyA:
+        for b in liczbyB:
+            wynik += a-b
     return wynik
 
 A = [9,2,1,4,1,4,3,5,2,5,36,78,6,865,4,5,746,46,3,5]
